@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" href="./Img/logo.png" type="image/icon type">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="loadingsearch" class="d-flex justify-content-center align-items-center">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <nav class="main-nav  position-fixed d-flex">
+        <div class="hidden w-50 bg-black min-vh-100 d-flex flex-wrap">
+            <div class="links p-3">
+                <a href="./search.html">Search</a>
+                <a href="./categories.html">Categories</a>
+                <a href="./area.html">Area</a>
+                <a href="./ingredients.html">Ingredients</a>
+                <a href="./contact.html">Contact Us</a>
+            </div>
+            <div class="align-self-end p-2 text-white">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-solid fa-globe fa-lg"></i>
+                </div>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+        <div class="nav d-flex justify-content-center flex-wrap">
+            <span class="image pt-2">
+                <img src="./Img/logo.png" alt="" width="60px" height="60px">
+            </span>
+            <i class="showLinks fa-solid fa-bars fa-2xl align-self-center"></i>
+            <span class="icons align-self-end mb-2 d-flex flex-wrap ms-3">
+                <a href="#" class="w-100 mb-1"><i class="fa-solid fa-globe fa-lg"></i></a>
+                <a href="#"><i class="fa-solid fa-share fa-lg"></i></a>
+            </span>
+        </div>
+    </nav>
+    <section id="inputs" class="d-flex justify-content-center">
+        <div class="mx-2">
+            <input id="inputOne" type="text" class="form-control bg-black text-white" placeholder="Search By Name">
+        </div>
+        <div class="mx-2">
+            <input id="inputTwo" type="text" class="form-control bg-black" maxlength="1"
+                placeholder="Search By First Letter">
+        </div>
+    </section>
+    <section id="home" class="d-flex flex-wrap justify-content-center">
+
+    </section>
+    <section id="producte" class="text-white d-none">
+
+    </section>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
